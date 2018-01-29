@@ -8,7 +8,7 @@ init
 {
 	vars.isLoading = false;
 	vars.split = false;
-	vars.onCloverGetLast = 0;
+	vars.hasSplit = false;
 }
 
 update
@@ -19,11 +19,19 @@ update
 	{
 		vars.isLoading = true;
 	}
-	if (current.onCloverGet != 0 && current.onCloverGet != vars.onCloverGetLast)
+	if (current.onCloverGet != 0 && current.onLoadScreen != 0)
 	{
-		vars.split = true;
+		if (vars.hasSplit == false) 
+		{
+			vars.split = true;
+		}
+		vars.hasSplit = true;
 	}
-	vars.onCloverGetLast = current.onCloverGet;
+	if (current.onCloverGet != current.onLoadScreen)
+	{
+		vars.hasSplit = false;
+	}
+
 }
 
 split 
