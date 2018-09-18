@@ -6,7 +6,7 @@ This will automatically pause the timer during loads.
 
 ### Installation
 1. Download the latest release of [LiveSplit](https://github.com/LiveSplit/LiveSplit/releases)
-2. Download the latest release of [Super Lucky's Tale Autosplitter](https://github.com/DefinitelyTrav/SuperLuckysTale_LoadRemover/releases). I recommend putting the autosplitter file in your LiveSplit folder.
+2. Download the latest release of [Super Lucky's Tale Load Remover](https://github.com/DefinitelyTrav/SuperLuckysTale_LoadRemover/releases). I recommend putting the autosplitter file in your LiveSplit folder.
 3. Run LiveSplit > Right Click > Edit Layout.
 4. Click the plus in the top left > Control > Scriptable Autosplitter
 5. Browse and find Super Lucky's Tale.asl and open it.
