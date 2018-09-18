@@ -1,4 +1,4 @@
-# SuperLuckysTale_Autosplitter
+# SuperLuckysTale_LoadRemover
 A LiveSplit autosplitter and load remover for Super Lucky's Tale.
 
 ### What does it do?
